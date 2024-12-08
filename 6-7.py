@@ -3,8 +3,10 @@
 age = int(input('Enter second number: '))
 
 if age < 13:
-    print("under 13")
+    print("Child")
 elif age <= 19:
-    print("15 PLN")
+    print("Teen")
+elif age <= 64:
+    print("Adult")
 else:
-    print("20 PLN")
+    print("Senior");
