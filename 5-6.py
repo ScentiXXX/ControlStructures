@@ -1,7 +1,7 @@
 ###
 # Calculates the sum of even numbers from 1 to a given number N
 #
-N = 10
+N = int(input('Enter end of the range'))
 sum_even = 0
 i = 1
 
